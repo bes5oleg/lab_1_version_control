@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №1 — Варіант 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f7f9fb;
+        }
+        h1, h2 {
+            color: #2a3d66;
+        }
+        ul, ol {
+            margin-left: 30px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        th, td {
+            border: 2px solid #333;
+            padding: 10px;
+        }
+        th {
+            background-color: #cce5ff;
+        }
+        .highlight {
+            background-color: #b2f7b2; /* зелений — переваги */
+        }
+        .negative {
+            background-color: #ffcccc; /* червоний — недоліки */
+        }
+        a {
+            color: #1a5ecc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Лабораторна робота №1 — Варіант 3</h1>
+
+    <!-- 1. Списки HTML -->
+    <h2 id="types">1. Види штучного інтелекту</h2>
+    <ul>
+        <li><b>Реактивні машини</b>
+            <ul>
+                <li>Найпростіший тип ШІ, який реагує лише на поточні події.</li>
+                <li>Не має пам’яті або здатності до навчання.</li>
+                <li>Приклад: комп’ютер Deep Blue, що переміг Каспарова.</li>
+            </ul>
+        </li>
+        <li><b>Обмежена пам’ять</b>
+            <ul>
+                <li>Може використовувати минулий досвід для прийняття рішень.</li>
+                <li>Типовий приклад — системи автопілотів у автомобілях.</li>
+            </ul>
+        </li>
+        <li><b>Теорія розуму</b>
+            <ul>
+                <li>Модель майбутнього ШІ, який розумітиме емоції та наміри людей.</li>
+                <li>Здатний взаємодіяти більш "по-людськи".</li>
+            </ul>
+        </li>
+        <li><b>Самосвідомий ШІ</b>
+            <ul>
+                <li>Гіпотетичний рівень розвитку, коли машина має власну свідомість.</li>
+                <li>Поки що існує лише у теорії та фантастиці.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <!-- 2. Таблиця порівняння мов -->
+    <h2 id="table">2. Порівняння мов програмування</h2>
+    <table>
+        <tr>
+            <th>Мова</th>
+            <th>Швидкість</th>
+            <th>Простота</th>
+            <th>Використання в AI</th>
+            <th>Переваги</th>
+            <th>Недоліки</th>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Середня</td>
+            <td>Дуже проста</td>
+            <td>TensorFlow, PyTorch, Keras</td>
+            <td class="highlight">Велика кількість бібліотек для ШІ</td>
+            <td class="negative">Низька швидкодія у порівнянні з C++</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>Дуже висока</td>
+            <td>Складна</td>
+            <td>Ігрові рушії, робототехніка</td>
+            <td class="highlight">Висока швидкість і контроль пам’яті</td>
+            <td class="negative">Складність синтаксису, довгий час розробки</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Висока</td>
+            <td>Середня</td>
+            <td>Enterprise-рішення, аналітика</td>
+            <td class="highlight">Портативність і безпека</td>
+            <td class="negative">Повільніше виконується через JVM</td>
+        </tr>
+        <tr>
+            <td>R</td>
+            <td>Низька</td>
+            <td>Середня</td>
+            <td>Статистика, аналіз даних</td>
+            <td class="highlight">Потужна аналітика та візуалізація</td>
+            <td class="negative">Низька продуктивність, обмежене використання поза аналітикою</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- 3. Посилання та якорі -->
+    <h2 id="links">3. Приклади AI-технологій</h2>
+
+    <div class="nav">
+        <a href="#vision">Комп’ютерний зір</a> |
+        <a href="#nlp">Обробка природної мови</a> |
+        <a href="#robots">Роботи</a> |
+        <a href="#games">Ігровий ШІ</a>
+    </div>
+
+    <h3 id="vision">Комп’ютерний зір</h3>
+    <p>Системи, які розпізнають зображення та відео. Використовується в автомобілях, медичній діагностиці, охороні.</p>
+
+    <h3 id="nlp">Обробка природної мови</h3>
+    <p>ШІ, який розуміє людську мову — наприклад, ChatGPT, Google Assistant, Siri.</p>
+
+    <h3 id="robots">Роботи</h3>
+    <p>Інтелектуальні машини, здатні до фізичних дій: від промислових маніпуляторів до гуманоїдів.</p>
+
+    <h3 id="games">Ігровий ШІ</h3>
+    <p>Алгоритми, які навчаються перемагати гравців або створювати адаптивну поведінку в іграх.</p>
+
+    <p><a href="#types">⬆ Повернутись до початку</a></p>
+
+    <hr>
+
+    <!-- 4. Карта посилань -->
+    <h2 id="map">4. Карта країн-лідерів у розробці ШІ</h2>
+    <p align="center">Натисни на країну, щоб відкрити її інформацію про розвиток ШІ:</p>
+
+    <p align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_blank_without_borders.svg" 
+             alt="Карта світу" usemap="#ai-map" width="600">
+
+        <map name="ai-map">
+            <area shape="rect" coords="120,110,180,150" href="https://en.wikipedia.org/wiki/United_States_artificial_intelligence" target="_blank" alt="США">
+            <area shape="rect" coords="450,130,520,170" href="https://en.wikipedia.org/wiki/Artificial_intelligence_in_China" target="_blank" alt="Китай">
+            <area shape="rect" coords="390,100,430,140" href="https://en.wikipedia.org/wiki/Artificial_intelligence_in_Japan" target="_blank" alt="Японія">
+            <area shape="rect" coords="340,90,380,130" href="https://en.wikipedia.org/wiki/Artificial_intelligence_in_South_Korea" target="_blank" alt="Південна Корея">
+            <area shape="rect" coords="300,90,350,130" href="https://en.wikipedia.org/wiki/Artificial_intelligence_in_European_Union" target="_blank" alt="ЄС">
+        </map>
+    </p>
+
+</body>
+</html>
